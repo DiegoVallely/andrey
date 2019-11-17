@@ -1,0 +1,124 @@
+v1.3.0
+# New: Introducing White Label feature.
+# New: Default image option in advanced settings.
+# New: Contact point information control in configuration settings.
+# Fix: Image URL issue with Service schema.
+# Fix: Instructions steps issue with Recipe schema.
+
+v1.2.0
+# New: Improved BreadcrumbList schema by providing control settings.
+# New: `wp_schema_pro_link_to_specificpage` Filter to remove shop(archive page) item from product schema.
+# New: Added Organisation types option in Configuration settings.
+# Improvement: Added Version number with plugin title.
+# Improvement: Added Logo guidelines in Configuration settings.
+
+v1.1.13
+# Improvement: `bsf_target_rules_include_parent_taxanomy` Filter to allow subcategories to be select in Enable On option.
+# Improvement: Replaced default Select string option to None.
+# Improvement: Text updated of rule set buttons in target option.
+# Improvement: Updated Select2 library.
+# Fix: Updated default selection of schema type for Local business and Review schema.
+
+v1.1.12
+# Improvement: Added Google recommended fields for product schema.
+# Improvement: Added Reviewer type option in review schema.
+# Improvement: Added new value for Gender option in Person Schema.
+# Fix: Updated `wp_schema_pro_schema_recipe ` filter to `wp_schema_pro_schema_service` for service schema.
+# Fix: Yoast SEO compatibility issue.
+
+v1.1.11
+# Improvement: updated image-object case for the logo for organization schema.
+# Improvement: updated enqueue method to load script and style file for rating in frontend.
+# Improvement: Added Locksmith type option in the Local Business schema.
+# Fix: Rating stars color fill issue on hover.
+
+v1.1.10
+# Improvement: Added MedicalBusiness type option in the Local Business schema.
+# Improvement: `wp_schema_pro_remove_product_offers` Filter to remove offers from product schema.
+# Fix: A compatible issue of rating markup not changing instantly.
+# Fix: Admin notice to start wizard not display for configuration.
+# Fix: Notice issues on setup wizard.
+
+v1.1.9
+# Improvement: Optimize plugin code and improved performance.
+
+v1.1.8
+# Improvement: ACF Compatibility Updated.
+# Improvement: Improved SiteNavigationElement schema.
+# Fix: Use logo from customizer option issue.
+
+v1.1.7
+# Improvement: Added Address, Member Of, Nationality, Same As, Birth Date and Gender in Person schema.
+# Improvement: Added Rating option in Course and Service schema.
+# Improvement: Added Business types option in Local Business schema.
+# Improvement: Added Front Page in the target options.
+# Fix: CourseInstance option validation issue in course schema.
+
+v1.1.6
+# Fix: Updated event schema StartDate and EndDate field type.
+
+v1.1.5
+# Fix: License activation link is not working.
+
+v1.1.4
+# Improvement: Added Keywords, Category, Cuisine, Instructions and video fields for recipe schema.
+# Improvement: Updated license registration process with Privacy Policy.
+# Improvement: Min and Max salary option added in job posting schema.
+# Improvement: Taxonomies options are added to the specific target for the schema.
+# Improvement: Added rating option in article schema.
+# Improvement: Decimal value can be added in product price.
+# Improvement: Added `wp_schema_pro_schema_enabled` and `wp_schema_pro_global_schema_enabled` filters to disable schemas globally.
+# Fix: The publisher should appear in schemas according to the site represent.
+# Fix: Shortcode appears in the description field in schemas.
+# Fix: Class conflict issue in person schema.
+
+v1.1.3
+# Improvement: Added `wp_schema_pro_link_to_frontpage` filter to remove home list item from BreadcrumbList schema.
+# Improvement: Added image-object case for the logo without width and height for article schema.
+# Improvement: Added `add_ratings_schema_pro_markup` filter and `wp_schema_pro_rating_shortcode` shortcode to add rating more than one time in page/post.
+# Improvement: Updated logo field as a common field in global setting for both organization and person schema.
+# Improvement: Support added for Mobile App & Web App categories in Software Application schema.
+# Improvement: Support added for 0 price schema field.
+# Fix: Time formate updated in schema markup.
+# Fix: Updated URL format Http to Https in schema's context type.
+
+v1.1.2
+# Improvement: ACF Pro compatibility implemented.
+# Fixed: Star rating conflict with WooCommerce.
+# Fixed: Undefined index meta-created schema wizard.
+# Fixed: Undefined function call 'get_pages'.
+
+v1.1.1
+# Added: `wp_schema_pro_default_markup` Filter to display Enable Schema Markup option on edit page/post.
+# Fixed: PHP notice: undefined `description` index.
+# Fixed: PHP notice: invalid argument passed in foreach.
+
+v1.1.0
+# Added: Setup Wizard to configure global schema step by step
+# Added: New Support for sitewide schema types: Organization/Person, AboutPage, ContactPage, Sitelink Search Box, Breadcrumb, Site Navigation Element.
+# Fixed: Schema not rendering on the frontpage.
+# Fixed: Frontpage meta fields not getting saved while Yoast SEO enabled.
+
+v1.0.3
+# Enhancement: Updated plugin name `All-in-one Schema Pro` to `Schema Pro`.
+# Enhancement: All Fiters prefix updated with `wp_schema_pro`.
+# Fixed: Image selection not working in edit post.
+
+v1.0.2
+# Enhancement: Listed all Country & Currency in related option.
+# Enhancement: Updated required & recommended schema fields for Course.
+# Fixed: Repeater fields value not getting saved on edit post/page.
+# Fixed: Fixed logo size issue on "Google Structured Data Testing Tool"
+# Fixed: Strip HTML markup from schema.
+
+v1.0.1
+# Enhancement: Updated field types for Fixed value in Schema Post.
+# Enhancement: Updated required & recommended schema fields for Book & VideoObject Schema. You should test your schema configurations if you are using one of these schemas.
+# Fixed: Telephone number field not accepting all telephone format
+# Fixed: Test Schema link having `http://` instead of `https://` when SSL is enabled.
+
+v1.0.0
+# New: "Accept User Rating" option added for aggregate ratings in Mapping options.
+
+v1.0.0-beta.3
+# Initial Release

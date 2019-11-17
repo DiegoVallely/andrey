@@ -1,0 +1,88 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Enabled
+Operating System 	: Darwin
+Software 		: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
+MySQL version 		: 5.7.23
+XML Reader 		: Yes
+PHP Version 		: 7.2.8
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 8M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 30
+Max Upload Size 	: 8 MB
+Memory Limit 		: 256M
+Timezone 		: America/Sao_Paulo
+
+-----
+
+Importing Started! - 22:58:48 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Inserted WP Form 1454
+Imported Customizer Settings {"astra-settings":{"astra-addon-auto-version":"1.8.7","theme-auto-version":"1.8.7","different-retina-logo":true,"ast-header-retina-logo":"https:\/\/websitedemos.net\/alex39\/wp-content\/uploads\/sites\/432\/2019\/04\/logo-01-retina-free-img.png","display-site-title":false,"header-main-sep":0,"mobile-header-toggle-btn-style":"fill","ast-header-responsive-logo-width":{"desktop":"","tablet":"150","mobile":""},"header-main-menu-align":"inline","mobile-header-toggle-btn-style-color":"#ffffff","mobile-header-toggle-btn-border-radius":2,"footer-sml-layout":"footer-sml-layout-2","site-content-width":1140,"footer-sml-section-1-credit":"Copyright \u00a9 [current_year] [site_title] | <a href=\"#\">Credits<\/a>","footer-sml-section-2":"custom","footer-sml-section-2-credit":"Powered by [site_title]","footer-sml-divider":0,"site-layout-outside-bg-obj":{"background-color":"#172d55","background-image":"","background-repeat":"repeat","background-position":"center center","background-size":"auto","background-attachment":"scroll"},"theme-color":"#76d443","text-color":"#ffffff","link-h-color":"#ffffff","link-color":"#ffffff","transparent-menu-color-responsive":{"desktop":"rgba(255,255,255,0.6)","tablet":"rgba(23,45,85,0.5)","mobile":""},"transparent-menu-h-color-responsive":{"desktop":"#ffffff","tablet":"#172d55","mobile":""},"transparent-menu-bg-color-responsive":{"desktop":"","tablet":"","mobile":""},"footer-color":"rgba(255,255,255,0.5)","footer-link-color":"rgba(255,255,255,0.5)","footer-link-h-color":"#ffffff","footer-bg-obj":{"background-color":"#172d55","background-image":"","background-repeat":"repeat","background-position":"center center","background-size":"auto","background-attachment":"scroll"},"body-font-family":"'Open Sans', sans-serif","body-font-weight":"400","font-size-body":{"desktop":"16","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"headings-font-weight":"800","headings-font-family":"'Open Sans', sans-serif","headings-text-transform":"uppercase","font-size-h1":{"desktop":"150","tablet":"130","mobile":"65","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h2":{"desktop":"50","tablet":"50","mobile":"30","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h3":{"desktop":"35","tablet":"35","mobile":"25","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h4":{"desktop":"25","tablet":"25","mobile":"20","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h5":{"desktop":"18","tablet":"18","mobile":"18","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h6":{"desktop":"14","tablet":"14","mobile":"14","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"button-color":"#ffffff","button-h-color":"#ffffff","button-bg-color":"#73d636","button-bg-h-color":"#00c6c3","button-radius":0,"headings-font-variant":"","body-font-variant":"","font-weight-primary-menu":"500","text-transform-primary-menu":"uppercase","font-size-primary-menu":{"desktop":"14","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"primary-menu-spacing":{"desktop":{"top":"","right":"","bottom":"","left":""},"tablet":{"top":"0","right":"20","bottom":"0","left":"20"},"mobile":{"top":"","right":"","bottom":"","left":""},"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"header-spacing":{"desktop":{"top":"15","right":"","bottom":"10","left":""},"tablet":{"top":"1","right":"","bottom":"1","left":""},"mobile":{"top":"1","right":"","bottom":"1","left":""},"desktop-unit":"px","tablet-unit":"em","mobile-unit":"em"},"header-main-stick":true,"sticky-header-style":"slide","sticky-header-bg-color-responsive":{"desktop":"#007ea8","tablet":"","mobile":""},"sticky-header-logo":"https:\/\/websitedemos.net\/fitness-trainer-04\/wp-content\/uploads\/sites\/432\/2019\/04\/logo-01-regular-free-img.png","different-sticky-retina-logo":true,"sticky-header-retina-logo":"https:\/\/websitedemos.net\/fitness-trainer-04\/wp-content\/uploads\/sites\/432\/2019\/04\/logo-01-retina-free-img.png","sticky-header-logo-width":{"desktop":"150","tablet":"","mobile":""},"header-main-shrink":true,"site-identity-spacing":{"desktop":{"top":"","right":"","bottom":"","left":""},"tablet":{"top":"","right":"","bottom":"","left":""},"mobile":{"top":"","right":"","bottom":"","left":""},"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"different-sticky-logo":true,"text-transform-button":"uppercase","footer-sml-spacing":{"desktop":{"top":"25","right":"","bottom":"25","left":""},"tablet":{"top":"2","right":"","bottom":"2","left":""},"mobile":{"top":"","right":"","bottom":"","left":""},"desktop-unit":"px","tablet-unit":"em","mobile-unit":"px"},"text-transform-footer-content":"uppercase","font-size-footer-content":{"desktop":"14","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"sticky-header-menu-color-responsive":{"desktop":"rgba(255,255,255,0.79)","tablet":"","mobile":""},"sticky-header-menu-h-color-responsive":{"desktop":"#ffffff","tablet":"","mobile":""}},"custom-css":""}
+Importing from XML https://websitedemos.net/wp-content/uploads/astra-sites/432/wxr.xml
+Inserted - Term 8 - {"term_id":8,"name":"Uncategorized","slug":"uncategorized","term_group":0,"term_taxonomy_id":8,"taxonomy":"category","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 9 - {"term_id":9,"name":"Menu","slug":"menu","term_group":0,"term_taxonomy_id":9,"taxonomy":"nav_menu","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Post 1458 - attachment - bg-01-free-img
+Inserted - Post 21 - attachment - favicon-free-img
+Inserted - Post 1459 - attachment - logo-01-regular-free-img
+Inserted - Post 1460 - attachment - logo-01-retina-free-img
+Inserted - Post 1461 - attachment - overlay-01-free-img
+Inserted - Post 1462 - attachment - cropped-favicon-free-img.png
+Inserted - Post 1463 - attachment - bg-heading-01-free-img
+Inserted - Post 1464 - attachment - bg-06-free-img
+Inserted - Post 1465 - attachment - bg-05-free-img
+Inserted - Post 1466 - attachment - bg-04-free-img
+Inserted - Post 1467 - attachment - bg-03-free-img
+Inserted - Post 1468 - attachment - bg-02-free-img
+Inserted - Post 1469 - attachment - pattern-01-free-img
+Inserted - Post 1470 - attachment - bg-heading-02-free-img
+Inserted - Post 1471 - attachment - about-01-free-img
+Inserted - Post 1472 - attachment - clients-01-free-img
+Inserted - Post 1473 - attachment - clients-02-free-img
+Inserted - Post 1474 - attachment - clients-03-free-img
+Inserted - Post 1475 - attachment - clients-04-free-img
+Inserted - Post 1476 - attachment - gallery-01-free-img
+Inserted - Post 1477 - page - Home
+Inserted - Post 1478 - nav_menu_item - ABOUT ME
+Inserted - Post 1479 - nav_menu_item - TRAINING
+Inserted - Post 1480 - nav_menu_item - RATES
+Inserted - Post 1481 - nav_menu_item - CLIENTS
+Inserted - Post 17 - nav_menu_item - GALLERY
+Inserted - Post 1482 - nav_menu_item - TESTIMONIALS
+Inserted - Post 1483 - nav_menu_item - CONTACT
+Inserted - Post 1484 - attachment - gallery-02-free-img
+Inserted - Post 1485 - attachment - gallery-03-free-img
+Inserted - Post 1486 - attachment - gallery-04-free-img
+Inserted - Post 1487 - attachment - gallery-05-free-img
+Inserted - Post 1488 - attachment - gallery-06-free-img
+Inserted - Post 1489 - attachment - gallery-07-free-img
+Inserted - Post 1490 - nav_menu_item - HOME
+Inserted - Post 1491 - attachment - demo-screenshot-free-img
+Imported - Site Options {"woocommerce_product_attributes":[],"woocommerce_product_cat_list":[],"woocommerce_product_cat":[],"custom_logo":"https:\/\/websitedemos.net\/fitness-trainer-04\/wp-content\/uploads\/sites\/432\/2019\/04\/logo-01-regular-free-img.png","nav_menu_locations":{"primary":"menu"},"show_on_front":"page","page_on_front":"Home","page_for_posts":"","_fl_builder_enabled_icons":null,"_fl_builder_enabled_modules":null,"_fl_builder_post_types":null,"_fl_builder_color_presets":null,"_fl_builder_services":null,"_fl_builder_settings":null,"_fl_builder_user_access":null,"_fl_builder_enabled_templates":null,"siteorigin_widgets_active":null,"elementor_container_width":"","elementor_cpt_support":["post","page"],"elementor_css_print_method":"external","elementor_default_generic_fonts":"Sans-serif","elementor_disable_color_schemes":"yes","elementor_disable_typography_schemes":"yes","elementor_editor_break_lines":"","elementor_exclude_user_roles":null,"elementor_global_image_lightbox":"yes","elementor_page_title_selector":"","elementor_scheme_color":{"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70"},"elementor_scheme_color-picker]":{"1":"#ffffff","2":"#ffffff","3":"#ffffff","4":"#ffffff","5":"#001591","6":"#ffffff","7":"#73d636","8":"#ffffff"},"elementor_scheme_typography":{"1":{"font_family":"Roboto","font_weight":"600"},"2":{"font_family":"Roboto Slab","font_weight":"400"},"3":{"font_family":"Roboto","font_weight":"400"},"4":{"font_family":"Roboto","font_weight":"500"}},"elementor_space_between_widgets":"5","elementor_stretched_section_container":"","woocommerce_shop_page_title":"","woocommerce_cart_page_title":"","woocommerce_checkout_page_title":"","woocommerce_myaccount_page_title":"","woocommerce_edit_address_page_title":"","woocommerce_view_order_page_title":"","woocommerce_change_password_page_title":"","woocommerce_logout_page_title":"","woocommerce_enable_guest_checkout":null,"woocommerce_enable_checkout_login_reminder":null,"woocommerce_enable_signup_and_login_from_checkout":null,"woocommerce_enable_myaccount_registration":null,"woocommerce_registration_generate_username":null,"wpforms_settings":{"disable-css":"2","global-assets":false,"gdpr":false},"learndash_settings_theme_ld30":null,"learndash_settings_courses_themes":null}
+Imported - Widgets {"sidebar-1":{"search-2":{"title":""},"recent-posts-2":{"title":"","number":5},"recent-comments-2":{"title":"","number":5},"archives-2":{"title":"","count":0,"dropdown":0},"categories-2":{"title":"","count":0,"hierarchical":0,"dropdown":0},"meta-2":{"title":""}}}
+Complete 
+Batch Process Started!
+Astra Starter Sites - Importing Images for Blog name 'Andrey Braga - Personal Trainer' (1)
+---- Processing Images from Widgets -----
+---- Processing WordPress Posts / Pages - for "Gutenberg" ----
+---- Processing Images from Widgets -----
+---- Processing WordPress Posts / Pages - for "Gutenberg" ----
+---- Processing Mapping - for Astra Pro ----
+---- Processing MISC ----
+Post ID: 1490
+Post ID: 17
+Post ID: 1478
+Post ID: 1479
+Post ID: 1480
+Post ID: 1481
+Post ID: 1482
+Post ID: 1483
+Batch Process Complete!

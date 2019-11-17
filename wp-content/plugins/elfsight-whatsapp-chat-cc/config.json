@@ -1,0 +1,741 @@
+{
+	"observerUrl": "./preview/dist/whatsapp-chat-observer.js",
+	"preferences": {
+		"previewUpdateTimeout": 0,
+		"hideJivochat": true,
+		"enableCustomCSS": true
+	},
+	"settings": {
+		"tabs": [
+			{
+				"id": "content",
+				"name": "Content",
+				"active": true
+			},
+			{
+				"id": "settings",
+				"name": "Settings"
+			},
+			{
+				"id": "style",
+				"name": "Style"
+			}
+		],
+		"properties": [
+			{
+				"id": "phone",
+				"name": "WhatsApp phone number",
+				"tab": "content",
+				"type": "text",
+				"defaultValue": "+14081234567",
+				"description": "Set your WhatsApp phone number to receive messages from your website visitors via the chat widget."
+			},
+			{
+				"tab": "content",
+				"type": "divider"
+			},
+			{
+				"id": "bubbleSubgroup",
+				"name": "Chat Bubble",
+				"tab": "content",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "bubbleIcon",
+							"name": "Bubble Icon",
+							"type": "select-visual",
+							"select": {
+								"options": [
+									{
+										"value": "whatsapp-chat",
+										"img": "https://elfsight.com/assets/whatsapp-chat/icons/whatsapp-chat.svg"
+									},
+									{
+										"value": "calendar",
+										"img": "https://elfsight.com/assets/whatsapp-chat/icons/calendar.svg"
+									},
+									{
+										"value": "dialog",
+										"img": "https://elfsight.com/assets/whatsapp-chat/icons/dialog.svg"
+									},
+									{
+										"value": "message",
+										"img": "https://elfsight.com/assets/whatsapp-chat/icons/message.svg"
+									},
+									{
+										"value": "plane",
+										"img": "https://elfsight.com/assets/whatsapp-chat/icons/plane.svg"
+									},
+									{
+										"value": "support",
+										"img": "https://elfsight.com/assets/whatsapp-chat/icons/support.svg"
+									}
+								]
+							},
+							"defaultValue": "whatsapp-chat",
+							"description": "Select an icon for the chat bubble."
+						},
+						{
+							"id": "bubbleText",
+							"name": "Bubble Text (optional)",
+							"type": "text",
+							"defaultValue": "",
+							"allowEmpty": true,
+							"description": "Add some call to action text to the bubble, if necessary."
+						}
+					]
+				}
+			},
+			{
+				"id": "headerSubgroup",
+				"name": "Chat Header",
+				"tab": "content",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "picture",
+							"name": "Picture",
+							"type": "select",
+							"select": {
+								"options": [
+									{
+										"value": "library",
+										"name": "Select from Library"
+									},
+									{
+										"value": "custom",
+										"name": "Upload Custom"
+									}
+								]
+							},
+							"defaultValue": "library",
+							"description": "Select the source of your user pic for the chat window."
+						},
+						{
+							"id": "pictureLibrary",
+							"name": "Select Picture from Library",
+							"type": "select-user",
+							"selectUser": {},
+							"defaultValue": {
+								"photo": "https://pbs.twimg.com/profile_images/951055655594545153/F6eybr-i.jpg"
+							},
+							"visible": true,
+							"description": "Choose an appropriate user pic from images library. You can use the gender filter to find the right one."
+						},
+						{
+							"id": "pictureCustom",
+							"name": "Custom Picture (1:1)",
+							"type": "file",
+							"defaultValue": "",
+							"visible": true,
+							"description": "Upload a user pic from your computer. We recommend square aspect ratio."
+						},
+						{
+							"id": "name",
+							"name": "Name",
+							"type": "text",
+							"defaultValue": "John Doe",
+							"allowEmpty": true,
+							"description": "Set the username for the chat."
+						},
+						{
+							"id": "captionSubgroup",
+							"name": "Caption",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "nameCaptionType",
+										"name": "Caption Type",
+										"type": "select-inline",
+										"selectInline": {
+											"options": [
+												{
+													"value": "replyTime",
+													"name": "Reply Time"
+												},
+												{
+													"value": "custom",
+													"name": "Custom"
+												}
+											]
+										},
+										"defaultValue": "replyTime",
+										"description": "Choose the caption type to display below the username."
+									},
+									{
+										"id": "nameCaptionReplyTime",
+										"name": "Reply time text",
+										"type": "select",
+										"select": {
+											"options": [
+												{
+													"value": "Typically replies in minutes",
+													"name": "Typically replies instantly"
+												},
+												{
+													"value": "Typically replies in minutes",
+													"name": "Typically replies in minutes"
+												},
+												{
+													"value": "Typically replies within an hour",
+													"name": "Typically replies within an hour"
+												},
+												{
+													"value": "Typically replies in a few hours",
+													"name": "Typically replies in a few hours"
+												},
+												{
+													"value": "Typically replies within a day",
+													"name": "Typically replies within a day"
+												}
+											]
+										},
+										"defaultValue": "Typically replies within a day",
+										"description": "Choose one of the predefined estimated reply times to let your users know when to expect a response."
+									},
+									{
+										"id": "nameCaptionCustom",
+										"name": "Custom Caption",
+										"type": "textarea",
+										"textarea": {
+											"enableRichEdit": true,
+											"enableRichEditHtml": true
+										},
+										"allowEmpty": true,
+										"defaultValue": "",
+										"visible": true,
+										"description": "Set any text to be displayed below the username."
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"id": "welcomeMessageGroup",
+				"name": "Welcome Message",
+				"tab": "content",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "welcomeMessage",
+							"name": "Welcome Message",
+							"type": "textarea",
+							"textarea": {
+								"enableRichEdit": true,
+								"enableRichEditHtml": true
+							},
+							"allowEmpty": true,
+							"defaultValue": "Hi there 👋<br><br>How can I help you?",
+							"description": "Enter a welcome message or a greeting to display when the chat window is opened. Offer to help or ask a question to engage a website visitor in conversation."
+						}
+					]
+				}
+			},
+			{
+				"id": "buttonSubgroup",
+				"name": "Start Chat Button",
+				"tab": "content",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "buttonText",
+							"name": "Button Text",
+							"type": "text",
+							"defaultValue": "Start Chat",
+							"description": "Enter the chat trigger text to be displayed on the button."
+						},
+						{
+							"id": "buttonIconVisible",
+							"name": "Show Whatsapp Messenger Icon",
+							"type": "toggle",
+							"defaultValue": true,
+							"description": "Show/hide Whatsapp icon on your button."
+						}
+					]
+				}
+			},
+			{
+				"id": "positionSubgroup",
+				"name": "Position",
+				"tab": "settings",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "position",
+							"name": "Position",
+							"tab": "settings",
+							"type": "radio",
+							"radio": {
+								"options": [
+									{
+										"value": "floating",
+										"name": "Floating Bubble"
+									},
+									{
+										"value": "embed-bubble",
+										"name": "Embed Bubble"
+									},
+									{
+										"value": "embed-chat",
+										"name": "Embed Chat Window"
+									}
+								]
+							},
+							"defaultValue": "floating",
+							"description": "Choose the perfect display position for your widget. Floating Bubble will scroll along with your website page. Embed Bubble is added as a button to a specified page area. Clicking on the button will open the chat window. Embed Chat Window adds a window to a specified page area."
+						},
+						{
+							"id": "align",
+							"name": "Align",
+							"tab": "settings",
+							"type": "select-inline",
+							"selectInline": {
+								"options": [
+									{
+										"value": "left",
+										"name": "Left"
+									},
+									{
+										"value": "center",
+										"name": "Center"
+									},
+									{
+										"value": "right",
+										"name": "Right"
+									}
+								]
+							},
+							"defaultValue": "right",
+							"description": "Align your chat widget to the left or to the right, or keep it in the center of the page."
+						}
+					]
+				}
+			},
+			{
+				"id": "ChatDisplaySettingsSubgroup",
+				"name": "Chat Display Settings",
+				"tab": "settings",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"type": "static-html",
+							"name": "",
+							"staticHtml": {
+								"content": "<div style=\"font-size:13px;\">The settings below are used to activate/deactivate the widget depending on specific parameters.</div>"
+							}
+						},
+						{
+							"id": "displaySettingsPagesSubgroup",
+							"name": "Pages",
+							"tab": "settings",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "whereToDisplayChat",
+										"name": "Where to Display Chat",
+										"caption": "This setting is used in case you've installed the chat to your website template, and it's available on each page of your website.",
+										"type": "radio",
+										"radio": {
+											"options": [
+												{
+													"value": "allPages",
+													"name": "All pages"
+												},
+												{
+													"value": "excludedPages",
+													"name": "Excluded Pages"
+												},
+												{
+													"value": "specificPages",
+													"name": "Specific Pages"
+												}
+											]
+										},
+										"defaultValue": "allPages",
+										"description": "Choose the pages where you need to display the chat."
+									},
+									{
+										"id": "excludedPages",
+										"name": "Don't display chat on these pages",
+										"type": "complex",
+										"complex": {
+											"properties": [
+												{
+													"id": "url",
+													"name": "URL",
+													"type": "text",
+													"defaultValue": "",
+													"description": "Set the URL of the page where you don't want to display the chat."
+												}
+											]
+										},
+										"defaultValue": [],
+										"description": "List the pages where you don't want to display the chat."
+									},
+									{
+										"id": "specificPages",
+										"name": "Display chat only on these pages",
+										"type": "complex",
+										"complex": {
+											"properties": [
+												{
+													"id": "url",
+													"name": "URL",
+													"type": "text",
+													"defaultValue": "",
+													"description": "Set the URl of the page with the chat."
+												}
+											]
+										},
+										"defaultValue": [],
+										"description": "List all the pages that will display the chat."
+									}
+								]
+							}
+						},
+						{
+							"id": "displaySettingsDevicesSubgroup",
+							"name": "Devices",
+							"tab": "settings",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "devicesToDisplay",
+										"name": "Display widget on",
+										"description": "Choose the type of device to display the widget on.",
+										"type": "checklist",
+										"checklist": {
+											"options": [
+												{
+													"value": "mobile",
+													"name": "Mobile"
+												},
+												{
+													"value": "desktop",
+													"name": "Desktop"
+												}
+											]
+										},
+										"defaultValue": [
+											"mobile",
+											"desktop"
+										]
+									}
+								]
+							}
+						},
+						{
+							"id": "displaySettingsVisitorsSubgroup",
+							"name": "Visitors",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "showChatTo",
+										"name": "Display chat for",
+										"caption": "Select the category of visitors you want to display the chat for: all visitors, visitors who have come to your website for the first time, visitors who had been on your website before.",
+										"type": "radio",
+										"radio": {
+											"options": [
+												{
+													"value": "allVisitors",
+													"name": "All Visitors"
+												},
+												{
+													"value": "newVisitors",
+													"name": "New Visitors"
+												},
+												{
+													"value": "returningVisitors",
+													"name": "Returning Visitors"
+												}
+											]
+										},
+										"defaultValue": "allVisitors",
+										"description": "Select the category of visitors who will see the chat."
+									}
+								]
+							}
+						},
+						{
+							"id": "DateAndTimeSubgroup",
+							"name": "Date & Time",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "displayDays",
+										"name": "When to display the widget",
+										"description": "Check the days when you need the widget to be active.",
+										"type": "checklist",
+										"checklist": {
+											"options": [
+												{
+													"value": 1,
+													"name": "Monday"
+												},
+												{
+													"value": 2,
+													"name": "Tuesday"
+												},
+												{
+													"value": 3,
+													"name": "Wednesday"
+												},
+												{
+													"value": 4,
+													"name": "Thursday"
+												},
+												{
+													"value": 5,
+													"name": "Friday"
+												},
+												{
+													"value": 6,
+													"name": "Saturday"
+												},
+												{
+													"value": 0,
+													"name": "Sunday"
+												}
+											]
+										},
+										"defaultValue": [
+											0,
+											1,
+											2,
+											3,
+											4,
+											5,
+											6											
+										]
+									},
+									{
+										"id": "timeSchedule",
+										"name": "Set the time schedule",
+										"type": "toggle",
+										"defaultValue": false,
+										"description": ""
+									},
+									{
+										"id": "displayStartTime",
+										"name": "Start Time",
+										"description": "Set the time for the widget to start working on the days you've checked in the section above.",
+										"type": "datepicker",
+										"datepicker": {
+											"timeOnly": true
+										},
+										"defaultValue": "00:00",
+										"allowEmpty": true
+									},
+									{
+										"id": "displayEndTime",
+										"name": "End Time",
+										"description": "Set the time for the widget to stop working on the days you've checked in the section above.",
+										"type": "datepicker",
+										"datepicker": {
+											"timeOnly": true
+										},
+										"defaultValue": "00:00",
+										"allowEmpty": true
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"id": "triggersSubgroup",
+				"name": "Open Chat Triggers",
+				"tab": "settings",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"type": "static-html",
+							"name": "",
+							"staticHtml": {
+								"content": "<div style=\"font-size:13px;\">Here you can set the type of user behavior that will open the chat window automatically.</div>"
+							}
+						},
+						{
+							"id": "timeOnPageSubgroup",
+							"name": "Time On Page",
+							"tab": "settings",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "timeOnPage",
+										"name": "Time on page (sec)",
+										"type": "number",
+										"defaultValue": 0,
+										"visible": true,
+										"description": "Set the number of seconds the website visitor has to spend on the page to open the chat window automatically."
+									}
+								]
+							}
+						},
+						{
+							"id": "timeOnSiteSubgroup",
+							"name": "Time On Site",
+							"tab": "settings",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "timeOnSite",
+										"name": "Time on site (sec)",
+										"type": "number",
+										"defaultValue": 0,
+										"description": "Set the number of seconds the website visitor has to spend on the website to open the chat window automatically."
+									}
+								]
+							}
+						},
+						{
+							"id": "scrollPositionSubgroup",
+							"name": "Scroll Position",
+							"tab": "settings",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "scrollPosition",
+										"name": "Scroll position (%)",
+										"type": "number",
+										"defaultValue": 0,
+										"description": "Set the scrolled page percentage for the chat window to open automatically."
+									}
+								]
+							}
+						},
+						{
+							"id": "exitIntentSubgroup",
+							"name": "Exit Intent",
+							"tab": "settings",
+							"type": "subgroup",
+							"subgroup": {
+								"properties": [
+									{
+										"id": "exiIntent",
+										"name": "Exit Intent",
+										"type": "toggle",
+										"defaultValue": false,
+										"description": "Activate this setting to make the chat window open automatically everytime a visitor intends to leave the website and close the browser tab."
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"id": "notificationsSubgroup",
+				"name": "Notifications",
+				"tab": "settings",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "notifications",
+							"name": "Notifications",
+							"type": "checklist",
+							"checklist": {
+								"options": [
+									{
+										"value": "bubbleBadge",
+										"name": "Bubble notification badge"
+									},
+									{
+										"value": "tabTitle",
+										"name": "Show notification in browser tab title"
+									}
+								]
+							},
+							"defaultValue": [
+								"bubbleBadge",
+								"tabTitle"
+							],
+							"description": "Select the kind of notifications to let your visitors know that chat window is opened and a conversation is active. These notifications catch the visitor's eye and encourage them to communicate with you."
+						}
+					]
+				}
+			},
+			{
+				"id": "colorsSubgroup",
+				"name": "Colors",
+				"tab": "style",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "headerBackgroundColor",
+							"name": "Header Background Color",
+							"type": "color",
+							"defaultValue": "rgb(9, 94, 84)",
+							"description": "Set the bubble background color."
+						},
+						{
+							"id": "buttonColor",
+							"name": "Button Color",
+							"type": "color",
+							"defaultValue": "rgb(79, 206, 93)",
+							"description": "Set the bubble icon and text color."
+						},
+						{
+							"id": "bubbleBackgroundColor",
+							"name": "Bubble Background Color",
+							"type": "color",
+							"defaultValue": "rgb(255, 255, 255)",
+							"description": "Set the chat window header background color."
+						},
+						{
+							"id": "bubbleIconColor",
+							"name": "Bubble Icon Color",
+							"type": "color",
+							"defaultValue": "rgb(79, 206, 93)",
+							"description": "Set the start chat button color."
+						}
+					]
+				}
+			},
+			{
+				"id": "buttonStyleSubgroup",
+				"name": "Button",
+				"tab": "style",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "buttonBorderRadius",
+							"name": "Button Shape",
+							"type": "slider",
+							"slider": {
+								"maxLimit": 20,
+								"minLimit": 0,
+								"floor": 0,
+								"ceil": 20,
+								"step": 1
+							},
+							"defaultValue": 18,
+							"description": "Use this option to adjust your button's shape."
+						}
+					]
+				}
+			}
+		]
+	}
+}

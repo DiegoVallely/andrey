@@ -1,0 +1,401 @@
+Version 1.14.0 - Thursday, 18th July 2019
+- New: Introduced Countdown Timer widget.
+- Improvement: Info Box - Added CSS Filters, Opacity & Transition duration options for image.
+- Improvement: Info Box - Added on hover box-shadow option for the CTA button.
+- Improvement: Post - Added dynamic field support to the CTA text.
+- Improvement: Video - Added border-radius option.
+- Fix: Advanced heading - Heading display issue on Mac Safari.
+- Fix: Google Map - Fixed Pegman icon CSS conflict.
+- Fix: Image Gallery - Redirection to the same page when the custom link is empty.
+- Fix: Image Gallery - Filterable tabs drop-down selection does not reflect.
+- Fix: Image Gallery - Lightbox issue when images removed from the media library.
+- Fix: Marketing Button - Dynamic support to text fields.
+- Fix: Post - Taxonomy badge term divider not working when Link meta is disabled.
+- Fix: Post - Term Divider and spacing issue with Meta fields.
+- Fix: Post - Filterable tabs drop-down selection does not reflect.
+- Fix: Post - Issue of masonry layout when the widget saved as a global widget.
+- Fix: Table - "Show Entries" string translation support added.
+- Fix: Video Gallery - Filterable tabs drop-down selection does not reflect.
+- Fix: White Label - Hide View Demos link on the settings page.
+- Fix: Woo - Products - Added link to the product name in a quick view.
+- Fix: Woo - Products - Incorrect terms being inserted to tags selection field.
+
+Version 1.13.2 - Friday, 12th July 2019
+- Fix: Icon visibility issue after Elementor 2.6 update.
+
+Version 1.13.1 - Monday, 1st July 2019
+- Improvement: Business Reviews - Improved Schema Rating.
+- Fix: Business Reviews - Avoid PHP error when wp_error is received from wp_remote API.
+
+Version 1.13.0 - Tuesday, 25th June 2019
+- New: Introduced Business Reviews widget.
+- Improvement: Gravity Form Styler - Added padding option for field validation message.
+- Improvement: Gravity Form Styler - Previous and Next button alignment in multistep form.
+- Improvement: Post - Event skin - Filter to display the published date of posts.
+- Fix: Gravity Form Styler - Filter 'gform_datepicker_options_pre_init' not accessible on frontend.
+- Fix: Gravity Form Styler - Fixed the input margin issue when the field label is hidden.
+- Fix: Off - Canvas - Background scroll issue on mobile devices.
+- Fix: Off - Canvas - Fixed the issue with Elementor responsive settings.
+- Fix: Off - Canvas - Push animation conflict with body width on the first page load.
+- Fix: Post - Image scale issue on hover.
+- Fix: Post - Offset issue with filterable tabs.
+- Fix: Post - Taxonomy badge issue with main query. 
+- Fix: Woo - Products - Issue with the regular price of variable products.
+
+Version 1.12.1 - Wednesday, 29th May 2019
+- Improvement: Particle Backgrounds - Loads the Particles JS where necessary.
+
+Version 1.12.0 - Monday, 20th May 2019
+- New: Introduced Particle Backgrounds for Elementor.
+- Improvement: Hotspot - Filter for Tooltip min & max width.
+- Improvement: Modal Popup - Added WPML compatibility to saved page content. 
+- Improvement: Post - Added WPML compatibility to post query.
+- Improvement: Post - News skin - Added an option to stack post content and image on mobile view.
+- Improvement: Table - Added dynamic field support to heading text.
+- Improvement: Woo - Products - Passing widget settings with uael_woo_products_content_structure filter.
+- Fix: Gravity Form Styler - Added style support to the description of section field.
+- Fix: Post - Image scale issue when image is set as a background.
+- Fix: Post - News skin - Featured image issue on mobile view when image position is set to none.
+- Fix: Woo - Products - Custom sale flash issue with variable products.
+
+Version 1.11.0 - Thursday, 18th April 2019
+- New: Introduced Off - Canvas widget.
+- Improvement: Post - Added an option to exclude the current post.
+- Improvement: Video - Added an option to mute the Vimeo video.
+- Fix: Post - Filterable tabs notice with Custom Post type.
+- Fix: Post - Link to the complete box issue when featured image set as a background.
+- Fix: Woo - Products - Fixed the Ajax add to cart issue in the modern skin.
+
+Version 1.10.2 - Thursday, 28th March 2019
+- Fix: Post - Fixed taxonomy badge tag issue.
+
+Version 1.10.1 - Thursday, 28th March 2019
+- Improvement: Post - Introduced a Business Card Skin.
+- Improvement: Advanced Heading - Responsive support to description spacing control.
+- Improvement: Caldera Form Styler - Caldera forms enqueue style related changes.
+- Improvement: Info Box - Added separator position options.
+- Improvement: Post - Responsive support to Blog padding control.
+- Improvement: Timeline - Fixed JS error when posts query results empty.
+- Improvement: Video - Added a filter to change the offset value of Sticky video.
+- Fix: Post - Fixed custom post type taxonomy badge issue.
+- Fix: Video Gallery - Fixed the carousel breaking issue.
+- Fix: White Label - Added compatibility on the updates page.
+- Fix: Woo - Products - Fixed the BigCommerce compatibility issue.
+
+Version 1.10.0 - Tuesday, 12th March 2019
+- New: Introduced Marketing Button Widget.
+- Improvement: Content Toggle - Provided filters to change the on/off text of label box switch.
+- Improvement: Hotspot - Provided filters to change the tour navigation strings.
+- Improvement: Video - Added WPML support to sticky info bar.
+- Improvement: Woo - Products - Added Products not found message field.
+- Fix: Caldera Form Styler - Fixed Caldera Forms minified JS issue.
+- Fix: Contact Form Styler - Fixed CF7 submit event JS issue.
+- Fix: Hotspot - Fixed tooltip background color issue.
+- Fix: Post - Elementor v2.5.4 version compatibility added.
+
+Version 1.9.2 - Tuesday, 26th February 2019
+- Improvement: Video - Added sticky video feature.
+- Improvement: Hotspot - Added an option to hide non-active markers in the tour.
+- Improvement: Hotspot - Added dynamic field support.
+- Improvement: Post - Added slides to scroll option for carousel layout.
+- Improvement: Price List - Added padding option for price items.
+- Improvement: Table - Added WPML support to heading text.
+- Fix: Caldera Form Styler - Radio fields styling issue when a condition applied.
+- Fix: Google Map - Fixed the map integration settings page issue with Phlox Theme.
+- Fix: Info Box - Fixed the separator width issue.
+- Fix: Modal Popup - Fixed the Vimeo video autoplay issue.
+- Fix: Timeline - Arrow visibility issue when the box-shadow option is enabled.
+- Fix: Woo - Products - Fixed the issue of Related Products query.
+
+Version 1.9.1 - Thursday, 31st January 2019
+- Improvement: Hotspot - Added an option to launch the tour when widget enters in viewport.
+- Improvement: Timeline - Provided a filter for custom meta key field.
+- Fix: Hotspot - Changed dependency of marker text field.
+- Fix: Hotspot - Fixed marker link issue.
+
+Version 1.9.0 - Tuesday, 29th January 2019
+- New: Introduced Hotspot Widget.
+- Improvement: Gravity form styler - Added support to consent field.
+- Improvement: Woo - Add To Cart - Added dynamic product support.
+- Fix: Gravity form styler - Previous button alignment issue fixed.
+- Fix: Image Gallery - Fixed the issue of image caption with a link.
+- Fix: Image Gallery - Fixed the issue of image lightbox in the carousel layout.
+- Fix: Post - Fixed the filterable tabs conflict.
+- Fix: Post - Added responsive support for spacing controls.
+- Fix: Table - Search string translation issue fixed.
+- Fix: Video Gallery - Fixed filterable tabs issue when category name is numeric.
+- Fix: Woo - Products - Fixed the out of stock products issue.
+- Fix: Woo - Products - Fixed the orderby filter issue.
+- Fix: Woo - Products - Fixed product description alignment issue for RTL.
+
+Version 1.8.4 - Friday, 21st December 2018
+- Improvement: Gravity Form Styler - Added compatibility to Select field with Enhanced User Interface.
+- Improvement: Table - Improved the sorting technique.
+- Improvement: Woo - Products - Added Related Products query.
+- Fix: Caldera Form Styler - Radio & Checkbox inline style issue fixed.
+- Fix: Post - Changed the styling of featured post in News skin for Mobile view.
+- Fix: Post - Fixed Offset_to_fix issue.
+- Fix: Post - Fixed styling issue of featured image when set as background.
+- Fix: Post - Fixed the issue with accessing filterable tabs from URL.
+- Fix: Timeline - Hide item when title & description is empty.
+
+Version 1.8.3 - Thursday, 6th December 2018
+- Improvement: Post - Added category/tags filter for taxonomy badge in Feed & News skin.
+- Improvement: Video - Provided a filter for Video URL.
+- Fix: Caldera Form Styler - Button alignment issue fixed.
+- Fix: Modal Popup - Hide On Device setting issue fixed.
+- Fix: Modal Popup - Fixed Popup scroll issue with dynamic content.
+- Fix: Modal Popup - Fixed spacing issue when display on setting is set to custom.
+- Fix: Modal Popup - Fixed the warning when private Vimeo video is set.
+- Fix: Post - Fixed Filterable Tabs issue when the Responsive option is set.
+- Fix: Video - Fixed the warning when private Vimeo video is set.
+
+Version 1.8.2 - Wednesday, 21st November 2018
+- Improvement: Image Gallery - Access filterable tabs from URL.
+- Improvement: Image Gallery - Responsive support for filterable tabs.
+- Improvement: Post - Access filterable tabs from URL.
+- Improvement: Post - Responsive support for filterable tabs.
+- Improvement: Video Gallery - Access filterable tabs from URL.
+- Improvement: Video Gallery - Responsive support for filterable tabs.
+- Fix: Info Box - Fixed CTA text with icon spacing issue.
+- Fix: Fancy Heading - Fixed typography issue when slide animation is set.
+- Fix: Gravity Form Styler - Fixed the submit button issue when conditional logic is applied.
+- Fix: Modal Popup - Compatibility to Hide On Device setting when Modal is set to display Automatic.
+- Fix: Modal Popup - Fixed Iframe scroll issue.
+- Fix: Modal Popup - Fixed Vimeo autoplay issue.
+- Fix: Post - Carousel navigation issue fixed.
+- Fix: Post - Fixed carousel with single post height issue.
+- Fix: Post - Fixed Post height issue in carousel layout.
+- Fix: Post - Taxonomy badge category/tags issue fixed.
+- Fix: Woo - Products - Fixed Product height issue in carousel layout.
+- Fix: Woo - Products - Fixed the issue of Quick View layout.
+- Fix: Woo - Products - Quick View of variation products issue fixed.
+- Deprecated: Modal Popup - Disable Video Title option.
+- Deprecated: Video - Player Title & Actions option.
+
+Version 1.8.1 - Friday, 26th October 2018
+- Fix: Caldera Form Styler - Fixed jQuery dependency issue.
+- Fix: Image Gallery - Fixed Justified layout CSS conflict.
+- Fix: Fancy Heading - Fixed slide animation issue.
+
+Version 1.8.0 - Wednesday, 24th October 2018
+- New: Introduced Caldera Form Styler Widget.
+- Improvement: Modal Popup - Added advanced video settings for Youtube & Vimeo.
+- Improvement: Modal Popup - Added dynamic support to URL fields.
+- Improvement: Post - Added custom image size option.
+- Improvement: Post - Provided a filter for Taxonomy Badge.
+- Fix: Before After Slider - Fixed slider CSS conflict.
+- Fix: Image Gallery - Fixed image carousel issue on tablet devices.
+- Fix: Post - Load More pagination button hidden when no more posts to load.
+- Fix: Post - Fixed the issue of excerpt length.
+- Fix: Post - Added scroll to top on the click of Pagination.
+- Fix: Timeline - Fixed the issue of excerpt length.
+- Fix: Woo - Products - Fixed the issue of Pagination when Main Query is set.
+- Fix: Woo - Products - Added scroll to top on the click of Pagination.
+- Fix: Woo - Products - Products per page hidden when Main Query is enabled.
+- Deprecated: Table - Deprecated Responsive Table option.
+
+Version 1.7.3 - Thursday, 4th October 2018
+- Improvement: Image Gallery - Added Justified Gallery Layout.
+- Improvement: Image Gallery - Dynamic field support for images.
+- Improvement: Info Box - Added hover color options to Prefix, Title & Description.
+- Improvement: Video - Added dynamic support to Video URL field.
+- Improvement: Video Gallery - Added dynamic support to Video URL field.
+- Fix: Advanced Heading - Separator Image width issue fixed.
+- Fix: Image Gallery - Fixed Navigation Arrows placement issue for RTL.
+- Fix: Info Box - CTA complete box link issue with dynamic fields.
+- Fix: Modal Popup - Added responsive option for Iframe height control.
+- Fix: Post - Image Size options fix for Creative Feed and News skin.
+- Fix: Post - Taxonomy Badge Category/Tag issue.
+- Fix: Post - Pagination in Main Query fix.
+- Fix: Post - Meta Categories/Tags fetching issue fix.
+- Fix: Post - Image on hover properties issue when link complete box is enabled.
+- Fix: Woo - Products - Fixed column settings issue for responsive view.
+- Fix: Woo - Categories - Fixed CSS conflict with Astra Theme.
+- Fix: Woo - Products - Woo Products order value validation in Quick view.
+
+Version 1.7.2 - Wednesday, 19th September 2018
+- Improvement: Image Gallery - Added vertical alignment option for image caption.
+- Improvement: Image Gallery - Provided a filter for Filterable Tabs.
+- Improvement: Post - Option to make entire blog box clickable.
+- Improvement: Post - Hide Image options added.
+- Improvement: Post - Image Hover options added.
+- Improvement: Post - Infinite loading - On Scroll / On Click.
+- Improvement: Post - Title Hover Color added.
+- Improvement: Post - Provided a filter for Filterable Tabs.
+- Improvement: Table - Added Heading Column Width option.
+- Improvement: Table - Option to upload CSV file.
+- Improvement: Video - Added Vimeo play icon in default tab of Play button.
+- Improvement: Woo - Products - Added Click of Image option for Product Quick view.
+- Fix: Content Toggle - Fixed heading spacing issue for RTL.
+- Fix: Multi Buttons - Button text alignment issue fixed.
+- Fix: Post - Infinite loading on Filterable Tabs.
+- Fix: Post - Featured Post meta tag issue fixed.
+- Fix: Woo - Products - Fixed product column CSS conflict with Astra theme.
+
+Version 1.7.1 - Friday, 7th September 2018
+- Improvement: Post - Added Equal Height option.
+- Improvement: Post - Select Default Tab while using Filterable Tabs.
+- Improvement: Post - Category / Tag selection for Taxonomy Badge option.
+- Improvement: Post - Added links target options.
+- Improvement: Post - Added Custom "All" text option for Filterable Tabs.
+- Improvement: Post - Added WordPress Filters to change Post Meta sequence.
+- Improvement: Video - Default tab for Play button to display YouTube play icon.
+- Improvement: Video - Introduced Video Subscriber bar.
+
+Version 1.7.0 - Tuesday, 4th September 2018
+- New: Introduced Post Widget
+- Improvement: Contact Form 7 Styler - Added default style for multi-select option.
+- Improvement: Gravity Form Styler - Added a new control for Border Active Color.
+- Improvement: Image Gallery - Provided a filter for carousel options.
+- Improvement: Modal Popup - Provided triggers before and after the modal opens.
+- Improvement: Video - Added a control to enable Double Click on mobile view.
+- Improvement: Video - Filters to change default video.
+- Improvement: Video Gallery - Filters to change default videos.
+- Improvement: Video Gallery - Provided a filter for bulk editing category names.
+- Improvement: Woo - Products - Provided trigger after the pagination AJAX calls.
+- Fix: Advanced Heading - Fixed Gradient color issue with iPhone.
+- Fix: Modal Popup - Click on overlay for few test cases issue fixed.
+- Fix: Multi Buttons - Button icon alignment & style related issues fixed.
+- Fix: Timeline - Fixed Timeline item link issue.
+- Fix: Timeline - Post excerpt text issue fixed.
+- Fix: W3C validations with image ALT attribute fixed.
+
+
+Version 1.6.0 - Friday, 3rd August 2018
+- New: Introduced Timeline Widget
+- Improvement: Modal Popup - Default CSS removed.
+- Improvement: Video Gallery - Filterable tabs bottom spacing changes.
+- Improvement: Woo - Products - AJAX Pagination implemented.
+- Improvement: Woo - Products - Main Query compatibility added.
+- Fix: Gravity Form Styler - RTL issue with Submit Button fixed.
+- Fix: Modal Popup - Removed conflicting control for button padding.
+- Fix: Video - Fixed double tap issue for Android devices.
+- Fix: Woo - Products - Multiple widgets on single page pagination issue fixed.
+
+Version 1.5.1 - Tuesday, 24th July 2018
+- New: White Label - Introduced 'wp-config.php' constant support.
+- New: Keyword Search - Compatibility to keyword search for widgets in Elementor editor.
+- Improvement: Gravity Form Styler - Support added for gform_pre_render action with description text.
+- Improvement: Image Gallery - Applied unique classes to gallery images.
+- Improvement: Modal Popup - Custom class accessible to inner wrap.
+- Improvement: Video - YouTube thumbnail size selection option added.
+- Improvement: Video Gallery - YouTube thumbnail size selection option added.
+- Fix: Contact Form 7 Styler - Radio button color scheme issue fixed.
+- Fix: Google Map - Empty custom marker case handled.
+- Fix: Image Gallery - Custom Size for images issue fixed.
+- Fix: Multi Buttons - W3C validations issue fixed.
+- Fix: Table - W3C validations issue fixed.
+
+Version 1.5.0 - Monday, 16th July 2018
+- New: Introduced Video Gallery Widget
+- New: Woo - Categories - Added Carousel layout.
+- Improvement: Price List - Added responsive support for price position.
+- Improvement: Video - Custom Thumbnail dynamic content compatibility fix.
+- Fix: Google Map - Js console error when adding a new marker.
+- Fix: Gravity Form Styler - Added support for styling of password field & description text.
+- Fix: Dual Color Heading - Spacing issue with highlighted text in Elementor editor.
+- Fix: Modal Popup - Custom class click issue on iOS.
+- Fix: Modal Popup - Thumbnail SSL issue fixed.
+- Fix: Video - Thumbnail SSL issue fixed.
+
+Version 1.4.0 - Thursday, 28th June 2018
+- New: Introduced Video Widget
+- Improvement: Modal Popup - YouTube, Vimeo, Iframe optimization
+- Improvement: Business Hours - Added custom HTML support to a date field.
+- Improvement: Image Gallery - Default tab selection for filters option added.
+- Improvement: Image Gallery - Hover overlay icon option added.
+- Improvement: Google Map - Added auto center option for markers.
+- Improvement: WPML compatibility added to links.
+- Fix: Before After Slider - Drag drop issue in Elementor editor.
+- Fix: Contact Form 7 Styler - Color scheme related notice fixed.
+- Fix: Content Toggle - Display issue at initial drag-drop when Elementor's default colors are disabled and other minor bug fixes.
+- Fix: Fancy Heading - Allow Fancy text with double quotes.
+- Fix: Fancy Heading - Multiple words in same line issue fixes.
+- Fix: Image Gallery - Carousel issue on page load.
+- Fix: Image Gallery - Default tab selection option added for filters.
+- Fix: Modal Popup - Typography issue for Modal Content.
+- Fix: Modal Popup - Container class CSS issue for mobile devices.
+- Fix: Woo - Products - Quick view image size issue.
+- Fix: Woo - Products - Pagination alignment issue.
+- Fix: Table - Localization of strings issue.
+
+Version 1.3.1 - Thursday, 07th June 2018
+- Improvement: WPML compatibility added
+- Fix: Woo - Add To Cart - Multiple buttons on the same page redirect to cart issue
+
+Version 1.3.0 - Monday, 04th June 2018
+- New: Introduced Image Gallery
+- Improvement: Google Map - Dynamic Field compatibility to Google Maps
+- Improvement: Woo - Product - Title hover color added
+- Fix: Gravity Form Styler - Form loading issue in the editor. Apply changes button added.
+- Fix: Woo - Add To Cart - Auto redirect to cart option issue
+
+Version 1.2.1 - Thursday, 24th May 2018
+- Improvement: Google Map - Compatibility to the Chinese language
+- Improvement: Price List - Responsive options improved
+- Improvement: Woo - Add To Cart - Auto redirect to cart option added
+- Improvement: Woo - Categories - Description hover option added
+- Improvement: Woo - Product - Equal height issue
+- Improvement: Woo - Product - Quick view issue for single image
+- Fix: Price List - Blank URL leading to blank text issue
+
+Version 1.2.0 - Monday, 21st May 2018
+- New: Introduced Price Box
+- New: Introduced Price List
+- New: Introduced Table
+- New: Introduced Woo - Add To Cart
+- New: Introduced Woo - Categories
+- New: Introduced Woo - Products ( Grid / Carousel )
+- Improvement: Advanced Heading - Provided option for separator text color
+- Improvement: Advanced Heading - Rewrite options for better UX
+- Improvement: Gravity Form Styler - Added style for Page field of Gravity Form.
+- Improvement: Info Box - Added hover animation option for normal style of Image/Icon
+- Fix: Info Box - Fixed issue of hover animation for Image/Icon when link set to complete box
+- Fix: Advanced Heading - Separator issue in firefox
+- Fix: Contact Form 7 Styler - Overlapping field validation error message fixed
+- Fix: Contact Form 7 Styler - Responsive control for button padding
+- Fix: Contact Form 7 Styler - Dependency issue of active input border color option fixed
+- Fix: Gravity Form Styler - Responsive control for button padding
+- Fix: Modal Popup - Display Modal on Button: Button alignment issue for responsive devices fixed
+
+Version 1.1.0 - Monday, 16th April 2018
+- New: Introduced CF7 Styler
+- New: Introduced Gravity Form Styler
+- New: Introduced Google Map
+- New: Introduced Business Hours
+- New: Added option to get update notifications for beta versions
+- New: Added 'uael-template' shortcode to display saved widgets, sections and pages
+- New: White Label - Introduced constant 'WP_UAEL_WL' to add extra security layer
+- Improvement: Modal Popup - Separated controls for Display on Custom class/ID
+- Improvement: Info Box - Added image sizes option
+- Improvement: White Label - Added a control to display internal help links
+- Improvement: White Label - Added a control to display beta notification box
+
+Version 1.0.0 Friday, 06th April 2018
+- Fix - Modal Popup - Padding option for button fix
+- Fix - Modal Popup - Issue with scroll on mobile devices
+
+Version 1.0.0-beta.3 Wednesday, 04th April 2018
+- Improvement: Elementor 2.0 compatibility, Now you can use UAEL widgets with dynamic fields
+- Improvement: Before After Slider - Added Before/After label visibility options on Hover Only / Normal Only / Both
+- Improvement: Before After Slider - Size options added for images
+- Improvement: Modal Popup - Added padding option for button
+- Fix: Content Toggle - Content 2 color & typography issue
+- Fix: Licence activation issue on multisite
+
+Version 1.0.0-beta.2 - Tuesday, 27th March 2018
+- Improvement: White Label - Logo & Help settings added
+- Fix: Before After Slider - Width issue on widget duplicate event
+- Fix: Modal Popup - Modal doesn't close on overlay click in iOS
+
+Version 1.0.0-beta.1 - Friday, 23rd March 2018
+- New: Introduced Modal Popup
+- New: Introduced Content Toggle
+- New: Introduced Info Box
+- New: Introduced Multi Buttons
+- New: Introduced Advanced Heading
+- New: Introduced Dual Color Heading
+- New: Introduced Fancy Heading
+- New: Introduced Before After Slider
+- New: Introduced White Label Feature

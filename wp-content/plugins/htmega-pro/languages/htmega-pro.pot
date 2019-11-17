@@ -1,0 +1,462 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HT Mega Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-06 04:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: includes/admin/admin-setting.php:599
+msgid "404 Content"
+msgstr ""
+
+#: includes/admin/admin-setting.php:118 includes/admin/admin-setting.php:119
+msgid "Accordion"
+msgstr ""
+
+#: includes/class.htmega-pro.php:48
+msgid "Activate Now"
+msgstr ""
+
+#: includes/admin/admin-setting.php:135
+msgid "Add Banner"
+msgstr ""
+
+#: includes/admin/admin-setting.php:97
+msgid "and generate the API key."
+msgstr ""
+
+#: includes/admin/admin-setting.php:127
+msgid "Animate Heading"
+msgstr ""
+
+#: includes/admin/admin-setting.php:613
+msgid "bbPress"
+msgstr ""
+
+#: includes/admin/admin-setting.php:143
+msgid "Blockquote"
+msgstr ""
+
+#: includes/admin/admin-setting.php:623
+msgid "Booked Calender"
+msgstr ""
+
+#: includes/admin/admin-setting.php:151
+msgid "Brands"
+msgstr ""
+
+#: includes/admin/admin-setting.php:633
+msgid "BuddyPress"
+msgstr ""
+
+#: includes/admin/admin-setting.php:159
+msgid "Business Hours"
+msgstr ""
+
+#: includes/admin/admin-setting.php:167
+msgid "Button"
+msgstr ""
+
+#: includes/admin/admin-setting.php:643
+msgid "Caldera Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:175
+msgid "Call To Action"
+msgstr ""
+
+#: includes/admin/admin-setting.php:183
+msgid "Carousel"
+msgstr ""
+
+#: includes/admin/admin-setting.php:653
+msgid "Contact form 7"
+msgstr ""
+
+#: includes/admin/admin-setting.php:887
+msgid "Contact Us"
+msgstr ""
+
+#: includes/admin/admin-setting.php:191
+msgid "Countdown"
+msgstr ""
+
+#: includes/admin/admin-setting.php:199
+msgid "Counter"
+msgstr ""
+
+#: includes/admin/admin-setting.php:207
+msgid "Custom Event"
+msgstr ""
+
+#: includes/admin/admin-setting.php:503
+msgid "Data Table"
+msgstr ""
+
+#: includes/admin/admin-setting.php:215
+msgid "Double Button"
+msgstr ""
+
+#: includes/admin/admin-setting.php:663
+msgid "Download Monitor"
+msgstr ""
+
+#: includes/admin/admin-setting.php:223
+msgid "Dropcaps"
+msgstr ""
+
+#: includes/admin/admin-setting.php:673
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/admin/admin-setting.php:70
+msgid "Elements"
+msgstr ""
+
+#: includes/admin/admin-setting.php:231
+msgid "Flip Box"
+msgstr ""
+
+#: includes/admin/admin-setting.php:239
+msgid "Gallery Justify"
+msgstr ""
+
+#: includes/admin/admin-setting.php:66
+msgid "General"
+msgstr ""
+
+#: includes/admin/admin-setting.php:97
+msgid "Go to"
+msgstr ""
+
+#: includes/admin/admin-setting.php:247
+msgid "Google Map"
+msgstr ""
+
+#: includes/admin/admin-setting.php:96
+msgid "Google Map Api Key"
+msgstr ""
+
+#: includes/admin/admin-setting.php:98
+msgid "Google Map Api key"
+msgstr ""
+
+#: includes/admin/admin-setting.php:683
+msgid "Gravity Forms"
+msgstr ""
+
+#. Author of the plugin
+msgid "HasThemes"
+msgstr ""
+
+#. Name of the plugin
+msgid "HT Mega Pro"
+msgstr ""
+
+#: includes/admin/admin-setting.php:41 includes/admin/admin-setting.php:42
+msgid "HTMega Addons"
+msgstr ""
+
+#: includes/admin/admin-setting.php:825
+msgid "HTMega Addons Settings"
+msgstr ""
+
+#: includes/helper-function.php:13
+msgid "HTMega Pro"
+msgstr ""
+
+#: includes/class.htmega-pro.php:47
+msgid ""
+"HTMega pro not working because you need to activate the HTMega Absolute "
+"Addons plugin."
+msgstr ""
+
+#: includes/class.htmega-pro.php:54
+msgid ""
+"HTMega pro not working because you need to install the HTMega Absolute "
+"Addons plugin"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo.wphash.com/htmega/"
+msgstr ""
+
+#: includes/admin/admin-setting.php:97
+msgid "https://developers.google.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hasthemes.com/plugins/ht-mega-pro/"
+msgstr ""
+
+#: includes/admin/admin-setting.php:255
+msgid "Image Comparison"
+msgstr ""
+
+#: includes/admin/admin-setting.php:263
+msgid "Image Grid"
+msgstr ""
+
+#: includes/admin/admin-setting.php:271
+msgid "Image Magnifier"
+msgstr ""
+
+#: includes/admin/admin-setting.php:279
+msgid "Image Marker"
+msgstr ""
+
+#: includes/admin/admin-setting.php:287
+msgid "Image Masonry"
+msgstr ""
+
+#: includes/admin/admin-setting.php:295
+msgid "Inline Navigation"
+msgstr ""
+
+#: includes/admin/admin-setting.php:303
+msgid "Instagram"
+msgstr ""
+
+#: includes/class.htmega-pro.php:56
+msgid "Install Now"
+msgstr ""
+
+#: includes/admin/admin-setting.php:693
+msgid "Instragram Feed"
+msgstr ""
+
+#: includes/admin/admin-setting.php:703 includes/admin/admin-setting.php:713
+msgid "Job Manager"
+msgstr ""
+
+#: includes/admin/admin-setting.php:311
+msgid "Light Box"
+msgstr ""
+
+#: includes/admin/admin-setting.php:723
+msgid "Mailchimp for wp"
+msgstr ""
+
+#: includes/admin/admin-setting.php:319
+msgid "Modal"
+msgstr ""
+
+#: includes/admin/admin-setting.php:327
+msgid "News Ticker"
+msgstr ""
+
+#: includes/admin/admin-setting.php:733
+msgid "Ninja Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:335
+msgid "Notify"
+msgstr ""
+
+#: includes/admin/admin-setting.php:343
+msgid "Offcanvas"
+msgstr ""
+
+#: includes/admin/admin-setting.php:882
+msgid "Online Documentation"
+msgstr ""
+
+#: includes/admin/admin-setting.php:80
+msgid "Other options"
+msgstr ""
+
+#: includes/admin/admin-setting.php:351
+msgid "Panel Slider"
+msgstr ""
+
+#: includes/admin/admin-setting.php:359
+msgid "Popover"
+msgstr ""
+
+#: includes/admin/admin-setting.php:367
+msgid "Post carousel"
+msgstr ""
+
+#: includes/admin/admin-setting.php:375
+msgid "Post Grid"
+msgstr ""
+
+#: includes/admin/admin-setting.php:383
+msgid "Post Grid Tab"
+msgstr ""
+
+#: includes/admin/admin-setting.php:391
+msgid "Post Slider"
+msgstr ""
+
+#: includes/admin/admin-setting.php:399
+msgid "Pricing List View"
+msgstr ""
+
+#: includes/admin/admin-setting.php:407
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/admin/admin-setting.php:415
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/admin/admin-setting.php:743
+msgid "QU Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:763
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/admin/admin-setting.php:423
+msgid "Scroll Image"
+msgstr ""
+
+#: includes/admin/admin-setting.php:431
+msgid "Scroll Navigation"
+msgstr ""
+
+#: includes/admin/admin-setting.php:439
+msgid "Search"
+msgstr ""
+
+#: includes/admin/admin-setting.php:447
+msgid "Section Title"
+msgstr ""
+
+#: includes/admin/admin-setting.php:105
+msgid "Select 404 Page."
+msgstr ""
+
+#: includes/admin/admin-setting.php:455
+msgid "Service"
+msgstr ""
+
+#: includes/admin/admin-setting.php:51 includes/admin/admin-setting.php:52
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin-setting.php:463
+msgid "Single Post"
+msgstr ""
+
+#: includes/admin/admin-setting.php:471
+msgid "Slider Thumbnail Gallery"
+msgstr ""
+
+#: includes/admin/admin-setting.php:479
+msgid "Social Share"
+msgstr ""
+
+#: includes/admin/admin-setting.php:836
+msgid "Successfully Settings Saved."
+msgstr ""
+
+#: includes/admin/admin-setting.php:487
+msgid "Switcher"
+msgstr ""
+
+#: includes/admin/admin-setting.php:773
+msgid "TablePress"
+msgstr ""
+
+#: includes/admin/admin-setting.php:495
+msgid "Tabs"
+msgstr ""
+
+#: includes/admin/admin-setting.php:511
+msgid "Team Member"
+msgstr ""
+
+#: includes/admin/admin-setting.php:519
+msgid "Testimonial"
+msgstr ""
+
+#: includes/admin/admin-setting.php:527
+msgid "Testimonial Grid"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The HTMega is a elementor addons package for Elementor page builder plugin "
+"for WordPress."
+msgstr ""
+
+#: includes/admin/admin-setting.php:75
+msgid "Third Party"
+msgstr ""
+
+#: includes/admin/admin-setting.php:535
+msgid "Toggle"
+msgstr ""
+
+#: includes/admin/admin-setting.php:863
+msgid "Toggle All"
+msgstr ""
+
+#: includes/admin/admin-setting.php:543
+msgid "Tooltip"
+msgstr ""
+
+#: includes/admin/admin-setting.php:551
+msgid "Twitter Feed"
+msgstr ""
+
+#: includes/admin/admin-setting.php:559
+msgid "User Login Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:567
+msgid "User Register Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:575
+msgid "Verticle Timeline"
+msgstr ""
+
+#: includes/admin/admin-setting.php:583
+msgid "Video Player"
+msgstr ""
+
+#: includes/admin/admin-setting.php:877
+msgid "Video Tutorial"
+msgstr ""
+
+#: includes/admin/admin-setting.php:794
+msgid "WC : Add To cart"
+msgstr ""
+
+#: includes/admin/admin-setting.php:802
+msgid "WC : Categories"
+msgstr ""
+
+#: includes/admin/admin-setting.php:810
+msgid "WC : Pages"
+msgstr ""
+
+#: includes/admin/admin-setting.php:783
+msgid "Weather"
+msgstr ""
+
+#: includes/admin/admin-setting.php:591
+msgid "Working Process"
+msgstr ""
+
+#: includes/admin/admin-setting.php:753
+msgid "WP Form"
+msgstr ""
+
+#: includes/admin/admin-setting.php:106
+msgid "You can select 404 page from here."
+msgstr ""
